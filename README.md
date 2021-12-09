@@ -1,4 +1,4 @@
-# Login_System_AWT!
+# STUDENT INFORMATION SYSTEM
 Default login information:
 ## username: 202011501
 ## password: 1234
