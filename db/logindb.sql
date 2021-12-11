@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 09, 2021 at 01:51 AM
+-- Generation Time: Dec 02, 2021 at 02:19 AM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.4
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `logindb`
+-- Database: `test_db`
 --
 
 -- --------------------------------------------------------
@@ -36,13 +36,6 @@ CREATE TABLE `student_data` (
   `sub3` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `student_data`
---
-
-INSERT INTO `student_data` (`regno`, `name`, `sub1`, `sub2`, `sub3`) VALUES
-(202011502, 'Arpan Thapa', 90, 50, 60);
-
 -- --------------------------------------------------------
 
 --
@@ -53,16 +46,15 @@ CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `user_name` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `email` varchar(50) DEFAULT NULL
+  `name` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `user_name`, `password`, `name`, `email`) VALUES
-(202011501, '202011501', '1234', 'Anupam Adhikari', 'anupam_202011501@smit.smu.edu.in');
+INSERT INTO `users` (`id`, `user_name`, `password`, `name`) VALUES
+(1, 'anupam', '1234', 'Anupam');
 
 --
 -- Indexes for dumped tables

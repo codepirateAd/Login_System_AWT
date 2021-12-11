@@ -1,7 +1,14 @@
-body {
+.index {
 	background: #1690A7;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+.index1 {
+	background: #1690A7;
+	display: flex;
 	align-items: center;
 	height: 100vh;
 	flex-direction: column;
@@ -10,10 +17,19 @@ body {
 *{
 	font-family: sans-serif;
 	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
 }
 
-form {
+.form {
 	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+.data1 {
+	width: 800px;
 	border: 2px solid #ccc;
 	padding: 30px;
 	background: #fff;
@@ -23,6 +39,15 @@ form {
 h2 {
 	text-align: center;
 	margin-bottom: 40px;
+}
+
+.input1 {
+	display: block;
+	border: 2px solid #ccc;
+	width: 55%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
 }
 
 input {
@@ -37,6 +62,12 @@ label {
 	color: #888;
 	font-size: 18px;
 	padding: 10px;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+	margin-left: 16%;
 }
 
 button {
@@ -65,8 +96,7 @@ h1 {
 	color: #fff;
 }
 
-a {
-	float: right;
+.a {
 	background: #555;
 	padding: 10px 15px;
 	color: #fff;
@@ -75,6 +105,63 @@ a {
 	border: none;
 	text-decoration: none;
 }
-a:hover{
+.a:hover{
 	opacity: .7;
 }
+.main{
+	background: #1690A7;
+	width: 100%;
+	height: 100%;
+	
+}
+#logout{
+	float: right;
+}
+#entry{
+	margin-left: 42%;
+	padding: 1%;
+}
+#retrieve{
+	padding: 1%;
+}
+img{
+	height: 200px;
+	width: 200px;
+}
+.ff{
+	margin-left: 19%;
+}
+.f1,.f2,.f3,.f4,.f5{
+	font-size: 18px;
+	color: white;
+}
+.f1{
+	margin-left: 19%;
+}
+.f2{
+	margin-left: 7%;
+}
+.f3{
+	margin-left: 4%;
+}
+.f4{
+	margin-left: 6%;
+}
+.f5{
+	margin-left: 8%;
+}
+footer{
+	margin: 0px;
+	height:100px;
+	width:100%;
+	background-color: black;
+	color: blanchedalmond;
+	font-size: 20px;
+	padding: 3%;
+}
+.ed{
+	margin-right: 13%;
+}
+
+
+
